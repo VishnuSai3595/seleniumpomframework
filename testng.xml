@@ -1,0 +1,9 @@
+<suite name = "loginsuite">
+<test name = "logintest">
+<classes>
+
+<class name = "test.logintest"/>
+
+</classes>
+</test>
+</suite>
