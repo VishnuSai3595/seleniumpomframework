@@ -5,8 +5,10 @@
     <classes>
       <class name="test.logintest">
         <methods>
+          <include name="setupReport"/>
+          <include name="Invalidlogintest"/>
           <include name="teardown"/>
-          <include name="validlogintest"/>
+          <include name="teardownReport"/>
           <include name="setup"/>
         </methods>
       </class> <!-- test.logintest -->

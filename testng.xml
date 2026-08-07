@@ -1,9 +1,9 @@
 <suite name = "loginsuite">
-<test name = "logintest">
-<classes>
-
-<class name = "test.logintest"/>
-
-</classes>
-</test>
+	<test name ="logintest">
+	<parameter name = "username" value="username1"/>
+	<parameter name = "password" value = "pass1"/>
+		<classes>
+			<class name = "test.logintest"/>
+		</classes>
+	</test>
 </suite>
